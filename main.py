@@ -5,7 +5,7 @@ from twilio.twiml.voice_receive import VoiceResponse
 app = Flask(_name_)
 
 @app.route("/voice", methods=['GET', 'POST'])
-def voice();
+def voice():
 resp = VoiceResponse()
 
 resp.say("Hello From Scott Lexium!")
